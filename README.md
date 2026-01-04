@@ -1,5 +1,6 @@
 ## ClaudeCodeBalance
 
+* 不会断线，保证你的ClaudeCode一直在工作，可以手动切换 Group 不会影响使用，无感知。
 
 > 自己去手动申请license即可，程序完全离线激活。
 
