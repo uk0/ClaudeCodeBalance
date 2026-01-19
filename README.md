@@ -1,21 +1,13 @@
-## ClaudeCodeBalance
+## ClaudeCodeBalance (自动构建Windows&macos)
+
+
+### 右侧Release进行下载自动打包好的内容即可。
 
 * 不会断线，保证你的ClaudeCode一直在工作，可以手动切换 Group 不会影响使用，无感知。
 
 > 自己去手动申请license即可，程序完全离线激活。
 
 
-
-
-* support architecture
-
-```bash
-
-MacOS: 13.0+ or later
-x86_64
-aarch64
-
-```
 
 * settings ` ~/.claude/settings.json`
 
@@ -38,7 +30,7 @@ aarch64
 
 ```
 
-* license
+* license 自己申请即可。
 
 ```bash
 
