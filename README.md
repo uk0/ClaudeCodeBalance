@@ -31,10 +31,7 @@
     "MCP_TOOL_TIMEOUT": "4500000"
   },
   "permissions": {
-    "defaultMode": "plan",
-    "allow": [
-      "mcp__pencil"
-    ]
+    "defaultMode": "plan"
   },
   "model": "opus[1m]",
   "fastMode": true,
