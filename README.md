@@ -16,18 +16,34 @@
   "env": {
     "ANTHROPIC_BASE_URL": "http://127.0.0.1:8079",
     "ANTHROPIC_AUTH_TOKEN": "sk-",
-    "ANTHROPIC_MODEL": "claude-opus-4-5-20251101",
-    "ANTHROPIC_SMALL_FAST_MODEL": "claude-sonnet-4-5-20250929",
-    "ANTHROPIC_DEFAULT_SONNET_MODEL": "claude-sonnet-4-5-20250929",
-    "ANTHROPIC_DEFAULT_HAIKU_MODEL": "claude-sonnet-4-5-20250929",
     "DISABLE_NON_ESSENTIAL_MODEL_CALLS": "1",
-    "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1"
+    "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1",
+    "CLAUDE_CODE_DISABLE_EXPERIMENTAL_BETAS": "1",
+    "CLAUDE_CODE_ATTRIBUTION_HEADER": "0",
+    "DISABLE_AUTOUPDATER": "1",
+    "CLAUDE_CODE_MAX_OUTPUT_TOKENS": "640000",
+    "CLAUDE_CODE_DISABLE_AUTO_MEMORY": "1",
+    "DISABLE_INSTALLATION_CHECKS": "1",
+    "ENABLE_EXRERIMENTAL_MCP_CLI": "true",
+    "CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS": "1",
+    "API_TIMEOUT_MS": "1200000",
+    "ENABLE_LSP_TOOLS": "true",
+    "MCP_TOOL_TIMEOUT": "4500000"
   },
-  "enabledPlugins": {
-    "context7@claude-plugins-official": true
+  "permissions": {
+    "defaultMode": "plan",
+    "allow": [
+      "mcp__pencil"
+    ]
+  },
+  "model": "opus[1m]",
+  "fastMode": true,
+  "skipDangerousModePermissionPrompt": true,
+  "teammateMode": "in-process",
+  "agentSettings": {
+    "teammateModel": "sonnet"
   }
 }
-
 ```
 
 * license 自己申请即可。
