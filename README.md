@@ -1,5 +1,6 @@
 ## ClaudeCodeBalance (自动构建Windows&macos)
 
+> 🎉 本项目已开放源代码：[https://github.com/uk0/ccb](https://github.com/uk0/ccb)
 
 ### 右侧Release进行下载自动打包好的内容即可。
 
